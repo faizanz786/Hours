@@ -22,6 +22,8 @@
 		6BEB571C19438BD1008063FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEB56FB19438BD1008063FC /* UIKit.framework */; };
 		6BEB572419438BD1008063FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB572219438BD1008063FC /* InfoPlist.strings */; };
 		6BEB572619438BD1008063FC /* HoursTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB572519438BD1008063FC /* HoursTests.m */; };
+		73240FD819439986009A3ADF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73240FD719439986009A3ADF /* Parse.framework */; };
+		73240FDA194399DC009A3ADF /* Versions.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73240FD9194399DC009A3ADF /* Versions.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		6BEB572119438BD1008063FC /* HoursTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoursTests-Info.plist"; sourceTree = "<group>"; };
 		6BEB572319438BD1008063FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BEB572519438BD1008063FC /* HoursTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoursTests.m; sourceTree = "<group>"; };
+		73240FD719439986009A3ADF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		73240FD9194399DC009A3ADF /* Versions.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Versions.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			files = (
 				6BEB56FA19438BD1008063FC /* CoreGraphics.framework in Frameworks */,
 				6BEB56FC19438BD1008063FC /* UIKit.framework in Frameworks */,
+				73240FD819439986009A3ADF /* Parse.framework in Frameworks */,
 				6BEB56F819438BD1008063FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +108,7 @@
 		6BEB56F619438BD1008063FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73240FD719439986009A3ADF /* Parse.framework */,
 				6BEB56F719438BD1008063FC /* Foundation.framework */,
 				6BEB56F919438BD1008063FC /* CoreGraphics.framework */,
 				6BEB56FB19438BD1008063FC /* UIKit.framework */,
@@ -122,6 +128,7 @@
 				6BEB571019438BD1008063FC /* ViewController.m */,
 				6BEB571219438BD1008063FC /* Images.xcassets */,
 				6BEB56FE19438BD1008063FC /* Supporting Files */,
+				73240FD9194399DC009A3ADF /* Versions.strings */,
 			);
 			path = Hours;
 			sourceTree = "<group>";
@@ -232,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BEB570E19438BD1008063FC /* Main_iPad.storyboard in Resources */,
+				73240FDA194399DC009A3ADF /* Versions.strings in Resources */,
 				6BEB571319438BD1008063FC /* Images.xcassets in Resources */,
 				6BEB570B19438BD1008063FC /* Main_iPhone.storyboard in Resources */,
 				6BEB570219438BD1008063FC /* InfoPlist.strings in Resources */,
@@ -390,6 +398,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hours/Hours-Prefix.pch";
 				INFOPLIST_FILE = "Hours/Hours-Info.plist";
@@ -403,6 +415,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hours/Hours-Prefix.pch";
 				INFOPLIST_FILE = "Hours/Hours-Info.plist";
@@ -470,6 +486,7 @@
 				6BEB572B19438BD1008063FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BEB572C19438BD1008063FC /* Build configuration list for PBXNativeTarget "HoursTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				6BEB572E19438BD1008063FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

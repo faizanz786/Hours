@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-//this is a test by khizeragainasdasdaasdasdasdasdasda
+
+
 
 @end
