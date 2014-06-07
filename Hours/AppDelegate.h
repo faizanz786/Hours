@@ -12,6 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-//this is a test by faizan
+//this is a test by khizeragain
 
 @end
