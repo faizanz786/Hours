@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>294F93AD-4090-489E-A4A4-1E2C0B4B2BE9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hours</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>353D695E-CAEF-414E-BBDA-A2E904BAF209</key>
+		<string>https://github.com/faizanz786/Hours.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hours.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>353D695E-CAEF-414E-BBDA-A2E904BAF209</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/faizanz786/Hours.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>353D695E-CAEF-414E-BBDA-A2E904BAF209</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>353D695E-CAEF-414E-BBDA-A2E904BAF209</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hours</string>
+		</dict>
+	</array>
+</dict>
+</plist>
